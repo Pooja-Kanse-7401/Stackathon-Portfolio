@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <div class="container-fluid">
+            <img src="logo.jpg" alt="" id="logo">
+            <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects / Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-router-disabled class="nav-link" href="mailto:kanse.pd@gmail.com">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div id="main-body">
+        <div class="d-flex main">
+            <div id="containt" class="d-flex flex-column">
+                <h2>Hii, I am <span style="color:rgb(214, 135, 31);">Pooja Kanse</span>,</h2>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus. Commodi perferendis
+                    accusantium nulla blanditiis. Repellendus officiis laboriosam perferendis impedit iure nulla in
+                    delectus nobis officia. Fugiat nam quia ut!</p>
+                <a href="Resume.pdf" class='text-decoration-none fw-bold' style="color:rgb(214, 135, 31);">Resume</a>
+            </div>
+            <div id="image">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+        <div id="About" class="d-flex flex-row-reverse main ">
+            <div id="containt" class="d-flex flex-column">
+                <h2>I am a Web Developer</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus. Commodi perferendis
+                    accusantium nulla blanditiis. Repellendus officiis laboriosam perferendis impedit iure nulla in
+                    delectus nobis officia. Fugiat nam quia ut!</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus. Commodi perferendis
+                    accusantium nulla blanditiis. Repellendus officiis laboriosam perferendis impedit iure nulla in
+                    delectus nobis officia. Fugiat nam quia ut!</p>
+            </div>
+            <div id="image">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+
+        <div id="projects" class="d-flex flex-column ">
+            <h1 style="color: rgb(214, 135, 31);">Projects</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <a href="https://pooja-kanse-7401.github.io/Bubble-Game/"><img
+                                src="Screenshot 2024-03-23 161801.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item active">
+                        <a href="https://pooja-kanse-7401.github.io/Calculator/"><img
+                                src="Screenshot 2024-03-23 162449.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://pooja-kanse-7401.github.io/My-Portfolio/"><img
+                                src="Screenshot 2024-03-23 161404.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="skills">
+            <h1 style="color: rgb(214, 135, 31);">Skills</h1>
+            <section class="d-flex flex-column w-90 justify-content-center align-items-center">
+                <button class="btn btn-outline-secondary fw-bold m-2 w-50">HTML5</button>
+                <button class="btn btn-outline-secondary fw-bold m-2 w-50">CSS3</button>
+                <button class="btn btn-outline-secondary fw-bold m-2 w-50">JavaScript</button>
+                <button class="btn btn-outline-secondary fw-bold m-2 w-50">MySQL</button>
+                <button class="btn btn-outline-secondary fw-bold m-2 w-50">React</button>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <h1 style="color: rgb(214, 135, 31);">Contact</h1>
+        <div class="contact d-flex flex-column justify-content-center align-items-center">
+            <form action="" id="contact-form">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Enter Your Name">
+              <label for="email">Email</label>
+              <input type="email" name="name" id="email" placeholder="Enter Your Email">
+              <label for="name">Message</label>
+              <textarea name="message" id="message" cols="50" rows="10" placeholder="Enter Your Message"></textarea>
+              <button class="btn btn-outline-secondary w-25 mt-2">SUBMIT</button>
+            </form>
+          </div>
+          <div id="footer" class="d-flex justify-content-center align-items-center flex-column">
+            <div id="footer-main">
+              <div id="ftinfo">
+                <h3 style="color: rgb(214, 135, 31);">Pooja Kanse</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum maiores incidunt ad quae veniam amet id neque eius modi delectus cumque, consequuntur provident molestias optio quisquam quidem quis tempora ipsam!</p>
+              </div>
+              <div id="social">
+                <h3 style="color: rgb(214, 135, 31);">social</h3>
+                <div class="d-flex">
+                  <a href="https://github.com/Pooja-Kanse-7401"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/pooja-kanse-2b3a701a5"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div id="copyright">
+              <p>&copy; Copyright 2023. Made by POOJA KANSE</p>
+            </div>
+          </div>
+    </footer>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
